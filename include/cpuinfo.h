@@ -386,6 +386,9 @@ enum cpuinfo_uarch {
 	/** Intel/Marvell XScale series. */
 	cpuinfo_uarch_xscale = 0x00100600,
 
+	/** Intel Meteor Lake microarchitecture (Core Ultra 1st gen) */
+	cpuinfo_uarch_meteor_lake = 0x00100700,
+
 	/** AMD K5. */
 	cpuinfo_uarch_k5 = 0x00200100,
 	/** AMD K6 and alike. */

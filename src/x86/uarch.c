@@ -167,6 +167,8 @@ enum cpuinfo_uarch cpuinfo_x86_decode_uarch(
 						case 0x7D: // Ice Lake-Y
 						case 0x7E: // Ice Lake-U
 							return cpuinfo_uarch_sunny_cove;
+						case 0xAA: // Meteor Lake
+							return cpuinfo_uarch_meteor_lake;
 
 						/* Low-power cores */
 						case 0x1C: // Diamondville,
